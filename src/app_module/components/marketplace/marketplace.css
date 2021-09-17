@@ -1,0 +1,122 @@
+/** @format */
+
+.marketplace {
+  display: flex;
+  flex: 7;
+  flex-direction: column;
+  padding: 30px;
+  justify-content: center;
+  text-align: center;
+}
+.marketplace > h1 {
+  font-weight: bold;
+  font-size: 64px;
+  font-family: "Poppins", sans-serif;
+}
+.buttonSection {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  margin: 32px 30px;
+  padding-left: 50px;
+}
+.twolines {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.all {
+  margin: 10px;
+  width: 70px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #f59b0e;
+  font-family: "Poppins", san-sarif;
+  font-weight: bold;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+}
+.babyline {
+  margin: 4px 9px;
+  border-radius: 0.3rem;
+  padding: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #f59b0e;
+  font-family: "Poppins", san-sarif;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.babylineEqup {
+  margin: 4px 3px;
+  border-radius: 0.3rem;
+  padding: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #f59b0e;
+  font-family: "Poppins", san-sarif;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.adultline {
+  margin: 4px 9px;
+  border-radius: 0.3rem;
+  padding: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #ab3b3a;
+  font-family: "Poppins", san-sarif;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.moreBtn {
+  border-radius: 0.3rem;
+  background-color: #ab3b3a;
+  padding: 8px 16px;
+  outline: none;
+  border: none;
+  width: fit-content;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-buttom: 30px;
+}
+.CardsArea {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 60px;
+}
+
+@media screen and (max-width: 680px) {
+  .marketplace {
+    width: 100%;
+  }
+  .marketplace > h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .CardsArea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+}

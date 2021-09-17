@@ -1,0 +1,13 @@
+.inventory{
+    display: flex;
+    flex: 7;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.migration{
+    display: flex;
+    flex: 7;
+    flex-direction: column;
+    padding: 20px;
+}

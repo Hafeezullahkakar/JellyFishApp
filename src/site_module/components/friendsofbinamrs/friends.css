@@ -1,0 +1,52 @@
+/** @format */
+
+.friendSection {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #d4f4ff;
+  width: 100%;
+}
+.Sectitle {
+  font-size: 2rem;
+}
+.logosSection {
+  padding: 20px 10px;
+  display: flex;
+}
+.singleLogo {
+  margin: 50px;
+  transition: 0.3s;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+}
+.singleLogo:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 680px) {
+  .Sectitle > h1 {
+    font-size: 2rem;
+  }
+  .friendSection {
+    /* display: flex;
+    margin-right: auto;
+    margin-left: auto; */
+  }
+  .logosSection {
+    margin: 5px 0;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .singleLogo {
+    margin: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+  }
+}

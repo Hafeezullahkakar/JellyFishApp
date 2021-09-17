@@ -1,0 +1,45 @@
+/** @format */
+
+.communitySection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #d4f4ff;
+  width: 100%;
+}
+.logosSection {
+  padding: 10px 10px;
+  margin: 20px 0;
+  display: flex;
+}
+.singleIcon {
+  margin: 50px;
+  transition: 0.3s;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+}
+.singleIcon:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 680px) {
+  .communitySection {
+    padding: 10px;
+  }
+  .logosSection {
+    padding: 10px 5px;
+    margin: 10px 0;
+    display: flex;
+  }
+  .singleIcon {
+    margin: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 100px;
+  }
+}

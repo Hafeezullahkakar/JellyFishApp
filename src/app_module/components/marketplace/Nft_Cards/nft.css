@@ -1,0 +1,68 @@
+/** @format */
+
+.nft_Card_wrapper {
+  background-color: #1e90ff;
+  width: 25%;
+  height: 50vh;
+  border: 2px solid #fff;
+  border-radius: 10px 0 10px 10px;
+  font-family: "Poppins", san-sarif;
+  align-items: center;
+  position: relative;
+  margin: 10px;
+  padding-bottom: 30px;
+}
+.logo_price {
+  display: flex;
+  flex-direction: row;
+  background-color: #ab3b3a;
+  width: 40%;
+  border-radius: 0 0 0 10px;
+  position: absolute;
+  right: 0;
+  font-weight: bold;
+  color: #fff;
+}
+
+.upper_card {
+  position: relative;
+  height: 20%;
+}
+.VideoDiv {
+  height: 30%;
+  width: 70%;
+  overflow: hidden;
+  /* border-radius: 20px; */
+}
+.lower_card {
+  color: #fff;
+  text-align: center;
+}
+.lower_card > p {
+  color: #fff;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.name_id {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+@media  screen and (max-width: 680px) {
+  .nft_Card_wrapper {
+    background-color: #1e90ff;
+    width: 95%;
+    border: 2px solid #fff;
+    border-radius: 10px 0 10px 10px;
+    font-family: "Poppins", san-sarif;
+    align-items: center;
+    position: relative;
+    margin: 10px;
+    padding-bottom: 30px;
+  }
+}

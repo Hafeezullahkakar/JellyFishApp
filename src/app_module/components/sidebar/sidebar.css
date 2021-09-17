@@ -1,0 +1,67 @@
+.sidebar{
+    display: flex;
+    flex:1.5;
+    background-color:#80daeb;
+    border-right: 1px solid rgb(255, 255, 255);
+    justify-content: flex-start;
+    padding: 15px;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: #000 !important;
+    height: 100vh;
+}
+
+.menuItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.item{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px 20px;
+}
+.item>img{
+    margin-right: 10px;
+}
+.item>p{
+    font-weight: bolder;
+    list-style: none;
+    margin-right: 20px;
+}
+.link{
+    text-decoration: none;
+    color: #000;
+
+}
+.toggleInventory{
+    display: flex;
+    flex-direction: column;  
+    justify-content: flex-end;
+    
+}
+.inventory_subMenu{
+    margin-left: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 50px;
+}
+
+.inventory_subMenu>p:hover{
+    color: rgb(124, 124, 124);
+
+}
+.Marketplace_subMenu{
+    margin-left: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 50px;
+}
+.svg{
+    margin-left: 70px;
+}

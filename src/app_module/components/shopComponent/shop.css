@@ -1,0 +1,79 @@
+/** @format */
+
+.shopBar {
+  display: flex;
+  flex: 7;
+  flex-direction: column;
+  padding: 20px;
+}
+.shopComponent {
+  margin: 10px;
+  width: 95%;
+  background-color: #0652dd;
+  height: 40vh;
+  border-radius: 1rem;
+  position: relative;
+  padding: 25px;
+  box-shadow: 2px 4px 10px 1px #000;
+}
+.shopComponent > h1 {
+  font-size: 72px;
+  font-family: "Poppins", san-sarif;
+  color: white;
+  text-align: start;
+}
+.shopComponent > p {
+  color: white;
+  text-align: start;
+  font-size: 25px;
+  z-index: 5;
+  position: relative;
+}
+.desc2 {
+  z-index: 5;
+  font-size: 15px;
+  color: white;
+  margin: 10px;
+  /* color: #ab3b3a; */
+}
+.shopbg {
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  width: 45%;
+  height: 98%;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+@media screen and (max-width: 680px) {
+ 
+  .shopComponent > h1 {
+    font-size: 3rem;
+    z-index: 5;
+    font-family: "Poppins", san-sarif;
+    color: white;
+    text-align: start;
+  }
+  .shopbg {
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    width: 50%;
+    height: 70%;
+  }
+  .shopComponent > p {
+    color: white;
+    text-align: start;
+    font-size: 16px;
+    z-index: 5;
+    position: relative;
+  }
+  
+}

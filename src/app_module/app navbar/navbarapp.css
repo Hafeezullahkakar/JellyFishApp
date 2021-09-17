@@ -1,0 +1,46 @@
+.navbar{
+    margin: 0;
+    display: flex;
+    background-color: #0652DD;
+    color: white;
+    /* width: 100%; */
+    padding: 1rem 0;
+}
+.navBarLeft{
+    display: flex;
+    flex: 3;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navbar > h2{
+    --tw-space-x-reverse: 0;
+    margin-right: calc(0.5rem*var(--tw-space-x-reverse));
+    margin-left: calc(0.5rem*(1 - var(--tw-space-x-reverse)));
+    font-size: 1.5rem;
+    line-height: 2rem;
+    --tw-text-opacity: 1;
+    font-weight: 700;
+    color: rgba(255,255,255,var(--tw-text-opacity)) !important;
+
+}
+.navbarCenter{
+    display: flex;
+    flex: 5;
+}
+.navBarRight{
+    display: flex;
+    flex: 3;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 680px) {
+    .navbar{
+        width: 100% !important;
+        background-color: red;
+    }
+
+}
+

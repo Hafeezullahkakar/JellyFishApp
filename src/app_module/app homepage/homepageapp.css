@@ -1,0 +1,9 @@
+.homepageapp{
+    /* display: flex; */
+    background-color: #d4f4ff;
+    width: 100vw;
+}
+.appPage{
+    display: flex;
+    flex-direction: row;
+}

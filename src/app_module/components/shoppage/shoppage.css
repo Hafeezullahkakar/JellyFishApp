@@ -1,0 +1,51 @@
+/** @format */
+
+.shopBar {
+  display: flex;
+  flex: 7;
+  flex-direction: column;
+  padding: 20px;
+}
+.shopComponent {
+  margin: 10px;
+  width: 95%;
+  background-color: #ab3b3a;
+  height: 40vh;
+  border-radius: 1rem;
+  position: relative;
+  padding: 25px;
+}
+.shopComponent > h1 {
+  font-size: 72px;
+  font-family: "Poppins", san-sarif;
+  color: white;
+  text-align: start;
+}
+.shopComponent > p {
+  color: white;
+  text-align: start;
+  font-size: 35px;
+  z-index: 2;
+  position: relative;
+}
+.shopbg {
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  width: 45%;
+  height: 98%;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 680px) {
+ .cards{
+   width: 85%;
+  
+ }
+  
+}

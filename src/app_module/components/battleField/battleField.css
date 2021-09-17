@@ -1,0 +1,58 @@
+/** @format */
+
+.batteField {
+  display: flex;
+  flex: 7;
+  padding: 30px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  width: 100vw;
+  padding-right: 20px;
+  background-color: rgba(253, 252, 249, 0.849);
+  justify-content: center;
+  align-items: flex-start;
+}
+.images {
+  display: flex;
+  justify-content: flex-start;
+  margin: 30px 0;
+}
+
+.imgs {
+  width: 260px;
+  height: 80px;
+  margin: 20px 10px;
+}
+.imgsapp {
+  width: 260px;
+  height: 80px;
+  margin: 20px 10px;
+}
+.imgspc {
+  width: 100px;
+  height: 95px;
+  margin: 20px;
+  text-decoration: none;
+}
+.pcdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pcdiv > b {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 680px) {
+  .batteField{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .images{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+}

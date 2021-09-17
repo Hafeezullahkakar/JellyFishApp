@@ -1,0 +1,198 @@
+/** @format */
+
+.lockPage {
+  display: flex;
+  flex: 7;
+  justify-content: center;
+  align-items: center;
+  background-color: #d4f4ff;
+}
+.Wrapper {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  background-color: rgb(255, 255, 255);
+  width: 60%;
+  box-sizing: border-box;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 10px 1px #000;
+  /* margin-top: 45px; */
+}
+.btn {
+  padding: 8px 16px;
+  outline: none;
+  border: none;
+  background-color: #d97706;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 0.2rem;
+}
+.btn:hover {
+  transform: scale(1.01);
+}
+
+.lockedStacks {
+  margin: 16px 0;
+  background-color: #ab3b3a;
+  border-radius: 10px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+.claim {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 0;
+}
+.pClaim {
+  font-size: 16px;
+}
+.btngray:disabled {
+  padding: 6px 10px;
+  border: none;
+  outline: none;
+  cursor: not-allowed;
+  margin-right: 10px;
+  background-color: grey;
+}
+.btnLine {
+  margin: 16px 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 70px;
+}
+.last {
+  border: none !important;
+  border-radius: 0 5px 5px 0;
+  margin: 0 !important;
+}
+.first {
+  margin: 0 !important;
+  border-radius: 5px 0 0 5px;
+}
+.dayBtn {
+  padding: 0 20px;
+  margin: 0 !important;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #000;
+  font-size: 16px;
+  background-color: #fff;
+  border-right: 2px solid #000;
+  font-weight: bold;
+}
+.dayBtn:focus {
+  background-color: #ab3b3a;
+  color: white;
+}
+.dayBtn:hover {
+  background-color: #581615;
+  color: white;
+}
+
+.btnInput {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #ab3b3a;
+  width: 98%;
+  position: relative;
+  padding: 8px 0;
+  border-radius: 5px;
+}
+.btnInput > input {
+  width: 80%;
+  height: 20px;
+  border: none;
+  outline: none;
+  padding: 0 5px;
+}
+
+.name_max {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.bmarsp {
+  margin-top: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+.maxBtn {
+  background-color: #ab3b3a;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.maxBtn:hover {
+  background-color: #581615;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  color: #000 !important;
+}
+
+.approve {
+  width: 98%;
+  margin: 20px 0 0 10px;
+  background-color: #ab3b3a;
+}
+.approve:hover {
+  background-color: #581615;
+}
+
+@media screen and (max-width: 680px) {
+  .btnLine {
+    margin: 10px 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 60px;
+    width: 98%;
+  }
+
+  .dayBtn {
+    padding: 0 2px;
+    margin: 0 !important;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #000;
+    font-size: 13px;
+    background-color: #fff;
+    border-right: 2px solid #000;
+    font-weight: bold;
+  }
+  .Wrapper {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: rgb(255, 255, 255);
+    width:85%;
+    box-sizing: border-box;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 10px 1px #000;
+    /* margin-top: 45px; */
+  }
+}

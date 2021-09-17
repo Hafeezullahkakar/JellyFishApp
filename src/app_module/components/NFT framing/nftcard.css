@@ -1,0 +1,99 @@
+/** @format */
+
+.cardWrapper {
+  background-color: #b9822e;
+  width: 30%;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.cardTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.cardName_logo {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.cardName_logo > p {
+  margin-left: 10px;
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+}
+.xs {
+  height: 50px;
+  padding-top: 5px;
+}
+.VideoDiv {
+  height: 120px;
+  margin: 10px 40px;
+  object-fit: scale-down;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.verses {
+  width: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.line1 {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #ab3b3a;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.line {
+  padding: 0 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #ffff;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.Approve {
+  width: 90%;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+  background-color: #ab3b3a;
+  border: none;
+  outline: none;
+  margin: 10px 20px;
+  padding: 8px 16px;
+  color: white;
+  cursor: pointer;
+  /* font-weight: bold; */
+}
+.Approve:hover {
+  background-color: #682523;
+}
+
+
+@media screen and (max-width: 680px) {
+  .cardWrapper{
+    width: 95%;
+  }
+}
