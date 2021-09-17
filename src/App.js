@@ -9,12 +9,12 @@ import { BrowserRouter as Router } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-        <Router>
-        <HomepageApp />
-        {/* <Homepage />
-        <Footer /> */}
-    </Router>
-      </div>
+      <Router>
+        {/* <HomepageApp /> */}
+        <Homepage />
+        <Footer />
+      </Router>
+    </div>
   );
 }
 

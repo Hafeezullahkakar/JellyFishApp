@@ -1,6 +1,7 @@
 /** @format */
 
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../../site_module/assests/logo.png";
 import ButtonApp from "../components/button/ButtonApp";
 import "./navbarapp.css";
@@ -14,7 +15,8 @@ function Navbar_app() {
       <div className="navbarCenter"></div>
       <div className="navBarRight">
         <ButtonApp title="Buy BMARS" />
-        <ButtonApp title="connect" />
+
+       <Link to ='/' > <ButtonApp title="connect" /> </Link>
       </div>
     </div>
   );

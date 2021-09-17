@@ -20,7 +20,7 @@ function Navbar() {
             title="Buy BMARS"
             link="https://pancakeswap.finance/swap#/swap?outputCurrency=0x46880afc2E6FA41bBbE9787c082f7c23F795465E"
           />
-          <Link to="/shop">
+          <Link to="/app">
             <Button title="Launch App" link="" />
           </Link>
         </div>
