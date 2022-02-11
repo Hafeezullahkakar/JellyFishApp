@@ -7,12 +7,13 @@ import Homepage from "./site_module/components/homepage/Homepage";
 import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
+  document.body.style.overflowX = "hidden";
   return (
     <div className="App">
       <Router>
-        {/* <HomepageApp /> */}
-        <Homepage />
-        <Footer />
+        <HomepageApp />
+        {/* <Homepage /> */}
+        {/* <Footer /> */}
       </Router>
     </div>
   );

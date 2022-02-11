@@ -65,3 +65,28 @@
 .svg{
     margin-left: 70px;
 }
+
+.fa-angle-double-left{
+    cursor: pointer;
+}
+.ToggleSideBar{
+    position: absolute;
+    height: 10px;
+}
+
+
+
+@media screen and (max-width: 760px) {
+    .sidebar{
+        position: absolute;
+        width: 90%;
+        height: 100vh;
+        z-index: 10;
+
+    }
+        
+    .ToggleSideBar{
+        padding-left: 10px;
+        z-index: 100;
+    }
+}

@@ -12,6 +12,7 @@ function Footer() {
        src={audiofile}
         autoPlay = 'false' 
         className='audiofile'
+        muted
         controls />
     </div>
   );

@@ -26,7 +26,7 @@ function Homepage_app() {
       <div className="appPage">
         <Sidebar />
         <Switch>
-          <Route exact path="/shop" component={Shoppage} />
+          <Route exact path="/" component={Shoppage} />
         </Switch>
         <Switch>
           <Route exact path="/inventory" component={Inventory} />
